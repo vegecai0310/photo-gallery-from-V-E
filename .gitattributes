@@ -1,2 +1,13 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Documents
+*.html text
+*.css text
+*.md text
+
+# Images should be treated as binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.png binary
